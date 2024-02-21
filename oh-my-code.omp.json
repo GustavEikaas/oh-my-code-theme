@@ -84,6 +84,12 @@
           "foreground": "white",
           "background": "blue",
           "template": "  {{ .Full }} "
+        },
+        {
+          "type": "upgrade",
+          "style": "plain",
+          "foreground": "#111111",
+          "background": "#FFD664"
         }
       ],
       "type": "prompt"
