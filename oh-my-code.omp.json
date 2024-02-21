@@ -59,7 +59,7 @@
             "paused_icon": " ",
             "stopped_icon": " "
           },
-          "template": "{{ if ne .Status \"stopped\" }}{{ .Track }}{{ end }}"
+          "template": "\udb81\udcc7 {{ if ne .Status \"stopped\" }}{{ .Track }}{{ end }}"
         },
         {
           "background": "#8be9fd",
