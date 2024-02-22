@@ -7,7 +7,8 @@
     "text": "#FFFFFF",
     "git": "#b57df5",
     "dirty": "#F09C00",
-    "ahead": "#4FE300"
+    "ahead": "#4FE300",
+    "spotify": "#1BD760"
   },
   "blocks": [
     {
@@ -52,8 +53,8 @@
           "type": "spotify",
           "style": "powerline",
           "powerline_symbol": "",
-          "foreground": "#ffffff",
-          "background": "#1BD760",
+          "foreground": "p:text",
+          "background": "p:spotify",
           "properties": {
             "playing_icon": " ",
             "paused_icon": " ",
@@ -62,7 +63,7 @@
           "template": "\udb81\udcc7 {{ if ne .Status \"stopped\" }}{{ .Track }}{{ end }}"
         },
         {
-          "background": "#8be9fd",
+          "background": "p:primary",
           "foreground": "p:text",
           "powerline_symbol": "\ue0b0",
           "style": "powerline",
@@ -73,16 +74,16 @@
           "type": "rust",
           "style": "powerline",
           "powerline_symbol": "",
-          "foreground": "#193549",
-          "background": "#99908a",
+          "foreground": "p:text",
+          "background": "p:primary",
           "template": "  {{ .Full }} "
         },
         {
           "type": "lua",
           "style": "powerline",
           "powerline_symbol": "",
-          "foreground": "white",
-          "background": "blue",
+          "foreground": "p:text",
+          "background": "p:primary",
           "template": "  {{ .Full }} "
         },
         {
