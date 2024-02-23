@@ -67,7 +67,7 @@
           "foreground": "p:text",
           "powerline_symbol": "\ue0b0",
           "style": "powerline",
-          "template": " \ue718 {{ if .PackageManagerIcon }}{{ .PackageManagerIcon }} {{ end }}{{ .Full }} ",
+          "template": " \udb81\udee6 {{ if .PackageManagerIcon }}{{ .PackageManagerIcon }} {{ end }}v{{ .Major }} ",
           "type": "node"
         },
         {
@@ -84,7 +84,7 @@
           "powerline_symbol": "",
           "foreground": "p:text",
           "background": "p:primary",
-          "template": "  {{ .Full }} "
+          "template": " {{ .Full }} "
         },
         {
           "type": "upgrade",
